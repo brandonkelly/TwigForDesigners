@@ -1,11 +1,11 @@
 # Types of Tags
 
-All Twig tags follow a basic pattern that separates them from the surrounding HTML. At their outer edges you will find left and right curly braces, coupled with another character that signifies what _type_ of tag it is. We refer to these as the “delimiters”.
+All Twig tags follow a basic pattern that separates them from the surrounding HTML. At their outer edges you will find left and right curly braces, coupled with another character that signifies what _type_ of tag it is. We refer to these as the “delimiters” of the tag.
 
 ```jinja
-{# ... #}
-{% ... %}
-{{ ... }}
+{#     #}
+{%     %}
+{{     }}
 ```
 
 There are three types of tags that Twig looks out for. In this chapter we’ll take a look at what those are and when you might use them.
