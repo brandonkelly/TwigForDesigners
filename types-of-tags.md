@@ -1,18 +1,18 @@
 # Types of Tags
 
-All Twig tags follow a basic pattern that separates them from the surrounding HTML. At their outer edges you will find left and right curly braces, coupled with another character that signifies what _type_ of tag it is.
+All Twig tags follow a basic pattern that separates them from the surrounding HTML. At their outer edges you will find left and right curly braces, coupled with another character that signifies what _type_ of tag it is. We refer to these as the “delimiters”.
 
 ```jinja
-{#     #}
-{%     %}
-{{     }}
+{# ... #}
+{% ... %}
+{{ ... }}
 ```
 
 There are three types of tags that Twig looks out for. In this chapter we’ll take a look at what those are and when you might use them.
 
 ## Comment Tags
 
-Comment tags are wrapped by `{#` and `#}`. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
+Comment tags are wrapped by `{#` and `#}` delimiters. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
 
 ```jinja
 <!-- This will be visible in the HTML source -->
@@ -21,9 +21,9 @@ Comment tags are wrapped by `{#` and `#}`. You can use them to leave little note
 
 ## Logic Tags
 
-Logic tags (often simply referred to as “tags”) are wrapped in `{%` and `%}`, and are used to define the _logic_ of your template, such as conditionals, loops, variable definitions, template includes, and other things.
+Logic tags (often simply referred to as “tags”) are wrapped in `{%` and `%}` delimiters, and are used to define the _logic_ of your template, such as conditionals, loops, variable definitions, template includes, and other things.
 
-Their syntax within the `{%` and `%}` varies from tag to tag, but they will always start with the same thing: the name of the tag. In their simplest form, that might be all that’s required. Take Craft’s {% requireLogin %} tag, for example:
+The syntax within the `{%` and `%}` delimiters varies from tag to tag, but they will always start with the same thing: the name of the tag. In their simplest form, that might be all that’s required. Take Craft’s {% requireLogin %} tag, for example:
 
 ```jinja
 {# Gotta be logged in to visit this page #}
@@ -57,7 +57,7 @@ Sometimes tags even support typing nested tags _between_ the opening and closing
 
 ## Output Tags
 
-The third and final type of tag Twig supports is Output Tags. They are wrapped in `{{` and `}}`, and can be used to output dynamic content.
+The third and final type of tag Twig supports is Output Tags. They are wrapped in `{{` and `}}` delimiters, and can be used to output dynamic content.
 
 ```jinja
 {# Win ‘em over with kindness #}
