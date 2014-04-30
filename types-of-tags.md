@@ -12,7 +12,9 @@ There are three types of tags that Twig looks out for. In this chapter we’ll t
 
 ## Comment Tags
 
-Comment tags are wrapped in `{#` and `#}` delimiters. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
+Comment tags are wrapped in `{#` and `#}` delimiters. You can use them to leave little notes for yourself in the code.
+
+They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
 
 ```jinja
 <!-- This will be visible in the HTML source -->
@@ -23,14 +25,14 @@ Comment tags are wrapped in `{#` and `#}` delimiters. You can use them to leave 
 
 Logic tags (often simply referred to as “tags”) are wrapped in `{%` and `%}` delimiters, and are used to define the _logic_ of your template, such as conditionals, loops, variable definitions, template includes, and other things.
 
-The syntax within the `{%` and `%}` delimiters varies from tag to tag, but they will always start with the same thing: the name of the tag. In their simplest form, that might be all that’s required. Take Craft’s {% requireLogin %} tag, for example:
+The syntax within the `{%` and `%}` delimiters varies from tag to tag, but they will always start with the same thing: the name of the tag. In their simplest form, that might be all that’s required. Take Craft’s [`requireLogin`](http://buildwithcraft.com/docs/templating/tags#requireLogin) tag, for example:
 
 ```jinja
 {# Gotta be logged in to visit this page #}
 {% requireLogin %}
 ```
 
-Other tags can accept parameters. In the case of Craft’s {% exit %} tag, you can optionally set the HTTP status code that should be sent to the browser in the response:
+Other tags can accept parameters. In the case of Craft’s [`exit`](http://buildwithcraft.com/docs/templating/tags#exit) tag, you can optionally set the HTTP status code that should be sent to the browser in the response:
 
 ```jinja
 {# This is not the page you are looking for #}
