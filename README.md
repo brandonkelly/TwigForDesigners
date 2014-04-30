@@ -22,3 +22,11 @@ It’s going to take a lot of work to fully complete this book. Rather than keep
 The book will loosely follow the outline of a workshop I gave at [Peers 2014](http://peersconf.com/2014/). Caroline Blaker was kind enough to publish some notes she took during the workshop, so if you want to get a sneak peak for what’s to come, [check those out](https://github.com/carolinecblaker/twig-notes/blob/master/notes "Notes on Brandon Kelly’s Twig workshop at Peers 2014").
 
 I will be tweeting when new pages are added from [@brandonkelly](http://twitter.com/brandonkelly).
+
+## Additional resources
+
+Here are some resources that many have found helpful when learning Twig for Craft:
+
+- [Templating in EE vs. Craft](https://gist.github.com/brandonkelly/8584132) – lots of examples comparing templating in ExpressionEngine to Craft (Twig).
+- [Twig Templating on Straight up Craft](http://straightupcraft.com/twig-templating) – curated list of resources for learning Twig in Craft.
+- [Twig for Template Designers](http://twig.sensiolabs.org/doc/templates.html) – the official documentation
