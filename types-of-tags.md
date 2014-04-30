@@ -12,7 +12,7 @@ There are three types of tags that Twig looks out for. In this chapter we’ll t
 
 ## Comment Tags
 
-Comment tags are wrapped by `{#` and `#}` delimiters. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
+Comment tags are wrapped in `{#` and `#}` delimiters. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
 
 ```jinja
 <!-- This will be visible in the HTML source -->
