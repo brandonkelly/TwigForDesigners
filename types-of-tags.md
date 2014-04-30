@@ -12,7 +12,7 @@ There are three types of tags that Twig looks out for. In this chapter we’ll t
 
 ## Comment Tags
 
-You can use comment tags to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
+Comment tags are wrapped by `{#` and `#}`. You can use them to leave little notes for yourself in the code. They are similar to HTML comments in that they won’t show up as rendered text in the browser, but unlike HTML comments they will never make it to the HTML source in the first place.
 
 ```jinja
 <!-- This will be visible in the HTML source -->
@@ -21,7 +21,7 @@ You can use comment tags to leave little notes for yourself in the code. They ar
 
 ## Logic Tags
 
-Logic tags (often simply referred to as “tags”) define the _logic_ of your template, such as conditionals, loops, variable definitions, template includes, and other things.
+Logic tags (often simply referred to as “tags”) are wrapped in `{%` and `%}`, and are used to define the _logic_ of your template, such as conditionals, loops, variable definitions, template includes, and other things.
 
 Their syntax within the `{%` and `%}` varies from tag to tag, but they will always start with the same thing: the name of the tag. In their simplest form, that might be all that’s required. Take Craft’s {% requireLogin %} tag, for example:
 
@@ -57,14 +57,14 @@ Sometimes tags even support typing nested tags _between_ the opening and closing
 
 ## Output Tags
 
-When you need to output something dynamically, use an output tag.
+The third and final type of tag Twig supports is Output Tags. They are wrapped in `{{` and `}}`, and can be used to output dynamic content.
 
 ```jinja
 {# Win ‘em over with kindness #}
 You look nice today, {{ user.username }}
 ```
 
-**Caution!** Remember that you never place an output tag (or any other tag for that matter) within another Twig tag:
+Note that you never place an output tag (or any other tag for that matter) within another Twig tag:
 
 ```jinja
 {# This won’t do what you think it will: #}

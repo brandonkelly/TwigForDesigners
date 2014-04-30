@@ -19,6 +19,6 @@ To get started, please visit the [Table of Contents](toc.md).
 
 It’s going to take a lot of work to fully complete this book. Rather than keep the whole thing to myself until it’s done, I’ve decided to share my progress as I go, in case anyone finds what I’ve already written useful.
 
-The book will loosely follow the outline of a workshop I gave at [Peers 2014](http://peersconf.com/2014/). Caroline Blacker was kind enough to publish some notes she took during the workshop, so if you want to get a sneak peak for what’s to come, [check those out](https://github.com/carolinecblaker/twig-notes/blob/master/notes "Notes on Brandon Kelly’s Twig workshop at Peers 2014").
+The book will loosely follow the outline of a workshop I gave at [Peers 2014](http://peersconf.com/2014/). Caroline Blaker was kind enough to publish some notes she took during the workshop, so if you want to get a sneak peak for what’s to come, [check those out](https://github.com/carolinecblaker/twig-notes/blob/master/notes "Notes on Brandon Kelly’s Twig workshop at Peers 2014").
 
 I will be tweeting when new pages are added from [@brandonkelly](http://twitter.com/brandonkelly).
