@@ -1,0 +1,77 @@
+# Table of Contents
+
+- Introduction
+- The Language
+	- [Types of Twig Tags](types-of-tags.md)
+	- Values, Expressions, and Variables
+		- Types of Values
+			- Strings
+			- Numbers
+			- Booleans
+			- Arrays
+			- Objects
+		- Expressions
+			- Literals
+			- String concatenation
+			- Math
+		- Variables
+			- {% set %} tag (single and pair examples)
+	- Filters
+		- Overview of syntax variations
+		- 3 simple examples
+			- length
+			- upper / lower
+			- raw
+	- Functions
+		- Overview of syntax variations
+		- 3 simple examples
+			- min() / max()
+			- random()
+			- range()
+	- Conditionals
+		- {% if %} ... {% endif %}
+		- What is a condition?
+			  An expression, evaluated to either true or false
+			- Logical expressions
+				- and
+				- or
+				- not
+				- (grouped expressions)
+		- {% else %}
+		- {% elseif %}
+	- Tests
+		- Overview of the syntax
+		- 3 simple examples
+			- defined
+			- even / odd
+			- divisible by
+	- Controlling Whitespace
+		- {% spaceless %}
+		- {%-, et al.
+- Working with Arrays and Objects
+	- Defining arrays and objects
+	- Accessing individual items
+	- Merging arrays and objects with the ‘merge’ filter
+	- Slicing arrays with the ‘slice’ filter
+	- Looping through arrays and objects
+		- The {% for %} tag
+		- 3 examples
+			- Age selector
+			- Navigation
+			- Entry index
+		- The 'if'parameter + example
+- Working with Dates
+	- The date() function
+	- The date_modify filter
+	- The date filter
+		- Formatting options
+- DRY Templating
+	* Including Templates
+	* Extending Templates
+	* Embedding Templates
+	- Macros
+- References
+	- Logic Tags
+	- Filters
+	- Tests
+	- Operators
