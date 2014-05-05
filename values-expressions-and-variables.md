@@ -46,7 +46,7 @@ Unlike strings, numbers don’t have delimiters. You just type them out.
 
 ### Booleans
 
-“Booleans” (or “bools”) are a value that is either `true` or `false`. Those are reserved words in Twig, so if you want to create a boolean value, you just type it out.
+“Booleans” (or “bools”) are either `true` or `false`. Those are reserved words in Twig, so if you want to create a boolean value, you just type it out.
 
     true
     false
