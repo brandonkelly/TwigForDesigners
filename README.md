@@ -4,7 +4,7 @@
 
 The system is well thought-out and a joy to work with – once you’ve learned it. The only problem is, its [documentation](http://twig.sensiolabs.org/doc/templates.html) is geared toward developers, often leaving non-developers in the dust when introducing key concepts and features.
 
-We’ve been talking with several designers over the past year, learning what the pain points are and how to explain them. With this book, my goal is that designers will have a new, definitive place to learn Twig, without any assumptions about prior programming experience.
+We’ve been talking with several designers over the past year, learning what the pain points are and how to explain them. With this book, my goal is that designers will have a new, definitive place to learn Twig, without making any assumptions about prior programming experience.
 
 
 After reading it, you should:

@@ -139,7 +139,7 @@ Once you’ve defined a variable, you can reference it at any point after that i
 
 The `{% set %}` tag also supports an alternative “tag pair” syntax, where the variable gets set to the resulting value between the `{% set %}` tag and a subsequent `{% endset %}` tag:
 
-```jinga
+```jinja
 {% set greeting %}
 <p>Hello there.</p>
 {% endset %}
